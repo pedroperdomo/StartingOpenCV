@@ -1,0 +1,32 @@
+//
+//  StartingOpenCV-Prefix.pch
+//  StartingOpenCV
+//
+//  Created by Pedro Pablo Perdomo Hernandez on 17/12/15.
+//  Copyright © 2015 Pedro Pablo Perdomo Hernandez. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef StartingOpenCV_Prefix_pch
+#define StartingOpenCV_Prefix_pch
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* StartingOpenCV_Prefix_pch */
+
+#ifdef __IPHONE_5_0
+#warning "This project uses features only available in IOS SDK 5.0 and lataer."
+#endif
+
+#ifdef __cplusplus
+#import <opencv2/opencv.hpp>
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif

@@ -10,6 +10,8 @@
 
 @interface ViewController ()
 
+- (void)showAlertMessage:(NSString *) myMessage;
+
 @end
 
 @implementation ViewController
@@ -22,6 +24,22 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)buttonTapped:(id)sender {
+    //RAISE SOME KIND OF OBJETION
+    [self showAlertMessage:@"Framework Ready"];
+    
+}
+
+- (void)showAlertMessage:(NSString *) myMessage{
+    UIAlertController *alertController;
+    alertController=[UIAlertController alertControllerWithTitle:@"OpenCV" message:myMessage preferredStyle:UIAlertControllerStyleAlert];
+    
+    [alertController addAction:[UIAlertAction actionWithTitle:@"Okay" style:UIAlertActionStyleDefault handler:nil]];
+    
+    [self presentViewController:alertController animated:YES completion:nil];
+    
+    
 }
 
 @end

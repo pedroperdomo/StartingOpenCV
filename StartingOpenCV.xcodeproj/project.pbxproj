@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		277DFBB31C23498100369CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB21C23498100369CF6 /* UIKit.framework */; };
+		277DFBB51C23498A00369CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB41C23498A00369CF6 /* Foundation.framework */; };
+		277DFBB71C23499600369CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB61C23499600369CF6 /* CoreGraphics.framework */; };
+		277DFBBA1C234BF300369CF6 /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB91C234BF300369CF6 /* opencv2 */; };
 		27929E921C20550400564CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929E911C20550400564CBF /* main.m */; };
 		27929E951C20550400564CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929E941C20550400564CBF /* AppDelegate.m */; };
 		27929E981C20550400564CBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929E971C20550400564CBF /* ViewController.m */; };
@@ -35,6 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		277DFBB01C23496F00369CF6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
+		277DFBB21C23498100369CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		277DFBB41C23498A00369CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		277DFBB61C23499600369CF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		277DFBB81C234A2800369CF6 /* StartingOpenCV-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StartingOpenCV-Prefix.pch"; sourceTree = "<group>"; };
+		277DFBB91C234BF300369CF6 /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv2; path = ../opencv2.framework/Versions/A/opencv2; sourceTree = "<group>"; };
 		27929E8D1C20550400564CBF /* StartingOpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartingOpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27929E911C20550400564CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27929E931C20550400564CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +61,8 @@
 		27929EB11C20550400564CBF /* StartingOpenCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartingOpenCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27929EB51C20550400564CBF /* StartingOpenCVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartingOpenCVUITests.m; sourceTree = "<group>"; };
 		27929EB71C20550400564CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27929EC31C2055DB00564CBF /* opencv */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opencv; path = ../opencv; sourceTree = "<group>"; };
+		27929EC61C20567100564CBF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../opencv/README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				277DFBBA1C234BF300369CF6 /* opencv2 in Frameworks */,
+				277DFBB31C23498100369CF6 /* UIKit.framework in Frameworks */,
+				277DFBB51C23498A00369CF6 /* Foundation.framework in Frameworks */,
+				277DFBB71C23499600369CF6 /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +97,13 @@
 		27929E841C20550300564CBF = {
 			isa = PBXGroup;
 			children = (
+				277DFBB91C234BF300369CF6 /* opencv2 */,
+				277DFBB61C23499600369CF6 /* CoreGraphics.framework */,
+				277DFBB41C23498A00369CF6 /* Foundation.framework */,
+				277DFBB21C23498100369CF6 /* UIKit.framework */,
+				277DFBB01C23496F00369CF6 /* opencv2.framework */,
+				27929EC61C20567100564CBF /* README.md */,
+				27929EC31C2055DB00564CBF /* opencv */,
 				27929E8F1C20550400564CBF /* StartingOpenCV */,
 				27929EA91C20550400564CBF /* StartingOpenCVTests */,
 				27929EB41C20550400564CBF /* StartingOpenCVUITests */,
@@ -118,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				27929E911C20550400564CBF /* main.m */,
+				277DFBB81C234A2800369CF6 /* StartingOpenCV-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,8 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				27929E981C20550400564CBF /* ViewController.m in Sources */,
 				27929E951C20550400564CBF /* AppDelegate.m in Sources */,
+				27929E981C20550400564CBF /* ViewController.m in Sources */,
 				27929E921C20550400564CBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +525,7 @@
 				27929EBC1C20550400564CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27929EBD1C20550400564CBF /* Build configuration list for PBXNativeTarget "StartingOpenCVTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +534,7 @@
 				27929EBF1C20550400564CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27929EC01C20550400564CBF /* Build configuration list for PBXNativeTarget "StartingOpenCVUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +543,7 @@
 				27929EC21C20550400564CBF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
