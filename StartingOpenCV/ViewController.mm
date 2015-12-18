@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import <opencv2/videoio/cap_ios.h>
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imagen;
 
 - (void)showAlertMessage:(NSString *) myMessage;
 
@@ -27,7 +29,9 @@
 }
 - (IBAction)buttonTapped:(id)sender {
     //RAISE SOME KIND OF OBJETION
-    [self showAlertMessage:@"Framework Ready"];
+    //[self showAlertMessage:@"Framework Ready"];
+    
+    
     
 }
 

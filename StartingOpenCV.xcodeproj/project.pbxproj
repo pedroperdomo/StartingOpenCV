@@ -7,18 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		277DFBB31C23498100369CF6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB21C23498100369CF6 /* UIKit.framework */; };
-		277DFBB51C23498A00369CF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB41C23498A00369CF6 /* Foundation.framework */; };
-		277DFBB71C23499600369CF6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB61C23499600369CF6 /* CoreGraphics.framework */; };
-		277DFBBA1C234BF300369CF6 /* opencv2 in Frameworks */ = {isa = PBXBuildFile; fileRef = 277DFBB91C234BF300369CF6 /* opencv2 */; };
 		27929E921C20550400564CBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929E911C20550400564CBF /* main.m */; };
 		27929E951C20550400564CBF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929E941C20550400564CBF /* AppDelegate.m */; };
-		27929E981C20550400564CBF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929E971C20550400564CBF /* ViewController.m */; };
+		27929E981C20550400564CBF /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 27929E971C20550400564CBF /* ViewController.mm */; };
 		27929E9B1C20550400564CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27929E991C20550400564CBF /* Main.storyboard */; };
 		27929E9D1C20550400564CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27929E9C1C20550400564CBF /* Assets.xcassets */; };
 		27929EA01C20550400564CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27929E9E1C20550400564CBF /* LaunchScreen.storyboard */; };
 		27929EAB1C20550400564CBF /* StartingOpenCVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929EAA1C20550400564CBF /* StartingOpenCVTests.m */; };
 		27929EB61C20550400564CBF /* StartingOpenCVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27929EB51C20550400564CBF /* StartingOpenCVUITests.m */; };
+		E4307BE436FBDB57A38607AD /* libPods-StartingOpenCV.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 651920BFDF33AE66E4A68BA1 /* libPods-StartingOpenCV.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,18 +36,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		277DFBB01C23496F00369CF6 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../opencv2.framework; sourceTree = "<group>"; };
-		277DFBB21C23498100369CF6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		277DFBB41C23498A00369CF6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		277DFBB61C23499600369CF6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		181BA6BBE19D88CBF31D4962 /* Pods-StartingOpenCV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartingOpenCV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StartingOpenCV/Pods-StartingOpenCV.debug.xcconfig"; sourceTree = "<group>"; };
 		277DFBB81C234A2800369CF6 /* StartingOpenCV-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StartingOpenCV-Prefix.pch"; sourceTree = "<group>"; };
-		277DFBB91C234BF300369CF6 /* opencv2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = opencv2; path = ../opencv2.framework/Versions/A/opencv2; sourceTree = "<group>"; };
 		27929E8D1C20550400564CBF /* StartingOpenCV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StartingOpenCV.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		27929E911C20550400564CBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		27929E931C20550400564CBF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		27929E941C20550400564CBF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		27929E961C20550400564CBF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		27929E971C20550400564CBF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27929E971C20550400564CBF /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		27929E9A1C20550400564CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		27929E9C1C20550400564CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		27929E9F1C20550400564CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -61,8 +54,8 @@
 		27929EB11C20550400564CBF /* StartingOpenCVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StartingOpenCVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		27929EB51C20550400564CBF /* StartingOpenCVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartingOpenCVUITests.m; sourceTree = "<group>"; };
 		27929EB71C20550400564CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27929EC31C2055DB00564CBF /* opencv */ = {isa = PBXFileReference; lastKnownFileType = folder; name = opencv; path = ../opencv; sourceTree = "<group>"; };
-		27929EC61C20567100564CBF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../opencv/README.md; sourceTree = "<group>"; };
+		57B85196B05F2DDA67314416 /* Pods-StartingOpenCV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StartingOpenCV.release.xcconfig"; path = "Pods/Target Support Files/Pods-StartingOpenCV/Pods-StartingOpenCV.release.xcconfig"; sourceTree = "<group>"; };
+		651920BFDF33AE66E4A68BA1 /* libPods-StartingOpenCV.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-StartingOpenCV.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,10 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				277DFBBA1C234BF300369CF6 /* opencv2 in Frameworks */,
-				277DFBB31C23498100369CF6 /* UIKit.framework in Frameworks */,
-				277DFBB51C23498A00369CF6 /* Foundation.framework in Frameworks */,
-				277DFBB71C23499600369CF6 /* CoreGraphics.framework in Frameworks */,
+				E4307BE436FBDB57A38607AD /* libPods-StartingOpenCV.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,20 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B5A250C18DBD723253E0E1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				181BA6BBE19D88CBF31D4962 /* Pods-StartingOpenCV.debug.xcconfig */,
+				57B85196B05F2DDA67314416 /* Pods-StartingOpenCV.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		27929E841C20550300564CBF = {
 			isa = PBXGroup;
 			children = (
-				277DFBB91C234BF300369CF6 /* opencv2 */,
-				277DFBB61C23499600369CF6 /* CoreGraphics.framework */,
-				277DFBB41C23498A00369CF6 /* Foundation.framework */,
-				277DFBB21C23498100369CF6 /* UIKit.framework */,
-				277DFBB01C23496F00369CF6 /* opencv2.framework */,
-				27929EC61C20567100564CBF /* README.md */,
-				27929EC31C2055DB00564CBF /* opencv */,
 				27929E8F1C20550400564CBF /* StartingOpenCV */,
 				27929EA91C20550400564CBF /* StartingOpenCVTests */,
 				27929EB41C20550400564CBF /* StartingOpenCVUITests */,
 				27929E8E1C20550400564CBF /* Products */,
+				1B5A250C18DBD723253E0E1D /* Pods */,
+				D8D2F72E0C8FFBF30E32849E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +121,7 @@
 				27929E931C20550400564CBF /* AppDelegate.h */,
 				27929E941C20550400564CBF /* AppDelegate.m */,
 				27929E961C20550400564CBF /* ViewController.h */,
-				27929E971C20550400564CBF /* ViewController.m */,
+				27929E971C20550400564CBF /* ViewController.mm */,
 				27929E991C20550400564CBF /* Main.storyboard */,
 				27929E9C1C20550400564CBF /* Assets.xcassets */,
 				27929E9E1C20550400564CBF /* LaunchScreen.storyboard */,
@@ -164,6 +158,14 @@
 			path = StartingOpenCVUITests;
 			sourceTree = "<group>";
 		};
+		D8D2F72E0C8FFBF30E32849E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				651920BFDF33AE66E4A68BA1 /* libPods-StartingOpenCV.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -171,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 27929EBA1C20550400564CBF /* Build configuration list for PBXNativeTarget "StartingOpenCV" */;
 			buildPhases = (
+				25540A9626D7162223C3EC2D /* Check Pods Manifest.lock */,
 				27929E891C20550300564CBF /* Sources */,
 				27929E8A1C20550300564CBF /* Frameworks */,
 				27929E8B1C20550300564CBF /* Resources */,
+				5868CD8D83BBB6F76542E93B /* Embed Pods Frameworks */,
+				4DACC0E17BED62C7E0D0651D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -292,13 +297,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25540A9626D7162223C3EC2D /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4DACC0E17BED62C7E0D0651D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StartingOpenCV/Pods-StartingOpenCV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5868CD8D83BBB6F76542E93B /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StartingOpenCV/Pods-StartingOpenCV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		27929E891C20550300564CBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				27929E951C20550400564CBF /* AppDelegate.m in Sources */,
-				27929E981C20550400564CBF /* ViewController.m in Sources */,
+				27929E981C20550400564CBF /* ViewController.mm in Sources */,
 				27929E921C20550400564CBF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -438,6 +491,7 @@
 		};
 		27929EBB1C20550400564CBF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 181BA6BBE19D88CBF31D4962 /* Pods-StartingOpenCV.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StartingOpenCV/Info.plist;
@@ -449,6 +503,7 @@
 		};
 		27929EBC1C20550400564CBF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B85196B05F2DDA67314416 /* Pods-StartingOpenCV.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = StartingOpenCV/Info.plist;
